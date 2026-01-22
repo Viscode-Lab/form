@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM form</title>
+
+    <style>
+      main {
+        margin: 0 auto;
+        width: 500px;
+        
+      }
+      h2 {
+        text-align: center;
+        font-size: 30px;
+        color: skyblue;
+      }
+      form {
+        line-height: 50px;
+        font-size: 20px;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+      }
+      #submit {
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(17, 74, 17);
+        color: white;
+        display: flex;
+        justify-self: right;
+        margin: 20px 10px;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h2>Form Handling Practical Class</h2>
+      <p id="message"></p>
+      <form action="">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your name"
+          required
+        />
+        <p id="nameError"></p>
+
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <p id="emailError"></p>
+
+        <label for="phone-number">Phone Number</label>
+        <input
+          type="text"
+          id="phone-number"
+          name="phone-number"
+          placeholder="Enter your phone number"
+        />
+        <p id="phoneNumberError"></p>
+
+        <button type="button" id="submit">Submit</button>
+      </form>
+    </main>
+    <script src="form.js"></script>
+  </body>
+</html>
+    
+    
